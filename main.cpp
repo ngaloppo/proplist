@@ -14,6 +14,8 @@ TEST(PropList, AddGet)
         props.add("age", 20);
         int a = props.get<int>("age");
         EXPECT_EQ( 20, a );
+
+        //String age = props.get<String>("age");
     }
     catch (const std::exception &e)
     {

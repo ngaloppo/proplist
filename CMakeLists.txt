@@ -10,6 +10,8 @@ cmake_minimum_required (VERSION 2.6)
     #INCLUDE_DIRECTORIES(${Boost_INCLUDE_DIR})
 #ENDIF()
 
+#FIND_PACKAGE(gtest)
+
 INCLUDE_DIRECTORIES("/usr/local/include")
 LINK_DIRECTORIES("/usr/local/lib")
 
